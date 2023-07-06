@@ -1,0 +1,172 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F1F1;
+    ;
+}
+
+header {
+    max-width: 351px;
+    width: 100%;
+    left: 137px;
+    top: 11px;
+    position: fixed;
+    z-index: 1;
+
+    ul {
+        max-width: 351px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            font-weight: 600;
+            font-size: 15px;
+
+            a {
+                color: black;
+            }
+        }
+    }
+}
+
+.s1 {
+    margin-top: 76px;
+
+    .conteiner {
+        @include conteiner;
+
+        h1 {
+            @include titles;
+            margin-bottom: 27px
+        }
+
+
+        .card {
+            @include cardDesign;
+
+            .image-box {
+                position: relative;
+
+                h5 {
+                    position: absolute;
+                    top: 31px;
+                    left: 41px;
+                    color: #FFF;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+
+            p {
+                color: #8A8787;
+                font-family: Roboto;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 20px;
+                width: 238px;
+                margin-top: 68px;
+                margin-left: 37px;
+            }
+
+            .fa-clock {
+                vertical-align: middle;
+                margin-top: 14px;
+                margin-left: 37px;
+            }
+
+            .minutes {
+                display: inline-block;
+                vertical-align: middle;
+                margin-top: 14px;
+                margin-left: 11px;
+            }
+        }
+
+        .card1 {
+            @include cardDesign;
+
+            .image-box {
+                position: relative;
+
+                h5 {
+                    position: absolute;
+                    top: 31px;
+                    left: 41px;
+                    color: #FFF;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+
+            p {
+                color: #8A8787;
+                font-family: Roboto;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 20px;
+                width: 238px;
+                margin-top: 68px;
+                margin-left: 37px;
+            }
+
+            .fa-clock {
+                vertical-align: middle;
+                margin-top: 14px;
+                margin-left: 37px;
+            }
+
+            .minutes {
+                display: inline-block;
+                vertical-align: middle;
+                margin-top: 14px;
+                margin-left: 11px;
+            }
+        }
+
+        .card2 {
+            @include cardDesign;
+
+            .image-box {
+                position: relative;
+
+                h5 {
+                    position: absolute;
+                    top: 31px;
+                    left: 41px;
+                    color: #FFF;
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+            }
+
+            p {
+                color: #8A8787;
+                font-family: Roboto;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 20px;
+                width: 238px;
+                margin-top: 68px;
+                margin-left: 37px;
+            }
+
+            .fa-clock {
+                vertical-align: middle;
+                margin-top: 14px;
+                margin-left: 37px;
+            }
+
+            .minutes {
+                display: inline-block;
+                vertical-align: middle;
+                margin-top: 14px;
+                margin-left: 11px;
+            }
+        }
+    }
+
+    .s1-box {
+        margin-top: 27px;
+    }
+}

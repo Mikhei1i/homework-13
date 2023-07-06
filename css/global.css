@@ -1,0 +1,311 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #F1F1F1;
+}
+
+header {
+  max-width: 351px;
+  width: 100%;
+  left: 137px;
+  top: 11px;
+  position: fixed;
+  z-index: 1;
+}
+header ul {
+  max-width: 351px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header ul li {
+  font-weight: 600;
+  font-size: 15px;
+}
+header ul li a {
+  color: black;
+}
+
+.s1 {
+  margin-top: 76px;
+}
+.s1 .conteiner {
+  max-width: 1215px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s1 .conteiner h1 {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+.s1 .conteiner .card {
+  background-color: white;
+  height: 357px;
+  display: inline-block;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 40px;
+}
+.s1 .conteiner .card .image-box {
+  position: relative;
+}
+.s1 .conteiner .card .image-box h5 {
+  position: absolute;
+  top: 31px;
+  left: 41px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+.s1 .conteiner .card p {
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 238px;
+  margin-top: 68px;
+  margin-left: 37px;
+}
+.s1 .conteiner .card .fa-clock {
+  vertical-align: middle;
+  margin-top: 14px;
+  margin-left: 37px;
+}
+.s1 .conteiner .card .minutes {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 14px;
+  margin-left: 11px;
+}
+.s1 .conteiner .card1 {
+  background-color: white;
+  height: 357px;
+  display: inline-block;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 40px;
+}
+.s1 .conteiner .card1 .image-box {
+  position: relative;
+}
+.s1 .conteiner .card1 .image-box h5 {
+  position: absolute;
+  top: 31px;
+  left: 41px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+.s1 .conteiner .card1 p {
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 238px;
+  margin-top: 68px;
+  margin-left: 37px;
+}
+.s1 .conteiner .card1 .fa-clock {
+  vertical-align: middle;
+  margin-top: 14px;
+  margin-left: 37px;
+}
+.s1 .conteiner .card1 .minutes {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 14px;
+  margin-left: 11px;
+}
+.s1 .conteiner .card2 {
+  background-color: white;
+  height: 357px;
+  display: inline-block;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 40px;
+}
+.s1 .conteiner .card2 .image-box {
+  position: relative;
+}
+.s1 .conteiner .card2 .image-box h5 {
+  position: absolute;
+  top: 31px;
+  left: 41px;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 700;
+}
+.s1 .conteiner .card2 p {
+  color: #8A8787;
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 20px;
+  width: 238px;
+  margin-top: 68px;
+  margin-left: 37px;
+}
+.s1 .conteiner .card2 .fa-clock {
+  vertical-align: middle;
+  margin-top: 14px;
+  margin-left: 37px;
+}
+.s1 .conteiner .card2 .minutes {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 14px;
+  margin-left: 11px;
+}
+.s1 .s1-box {
+  margin-top: 27px;
+}/*# sourceMappingURL=global.css.map */

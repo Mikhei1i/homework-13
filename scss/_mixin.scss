@@ -18,3 +18,12 @@
     overflow: hidden;
     margin-left: 40px;
 }
+
+@mixin textInImage {
+    position: absolute;
+    top: 31px;
+    left: 41px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}

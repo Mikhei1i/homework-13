@@ -49,12 +49,7 @@ header {
                 position: relative;
 
                 h5 {
-                    position: absolute;
-                    top: 31px;
-                    left: 41px;
-                    color: #FFF;
-                    font-size: 20px;
-                    font-weight: 700;
+                    @include textInImage;
                 }
             }
 
@@ -90,18 +85,12 @@ header {
                 position: relative;
 
                 h5 {
-                    position: absolute;
-                    top: 31px;
-                    left: 41px;
-                    color: #FFF;
-                    font-size: 20px;
-                    font-weight: 700;
+                    @include textInImage;
                 }
             }
 
             p {
                 color: #8A8787;
-                font-family: Roboto;
                 font-size: 10px;
                 font-weight: 700;
                 line-height: 20px;
@@ -131,18 +120,12 @@ header {
                 position: relative;
 
                 h5 {
-                    position: absolute;
-                    top: 31px;
-                    left: 41px;
-                    color: #FFF;
-                    font-size: 20px;
-                    font-weight: 700;
+                    @include textInImage;
                 }
             }
 
             p {
                 color: #8A8787;
-                font-family: Roboto;
                 font-size: 10px;
                 font-weight: 700;
                 line-height: 20px;
@@ -168,5 +151,110 @@ header {
 
     .s1-box {
         margin-top: 27px;
+    }
+}
+
+.s2 {
+    margin-top: 57px;
+    margin-bottom: 36px;
+
+    .conteiner {
+        @include conteiner
+    }
+
+    h1 {
+        @include titles;
+        margin-bottom: 30px;
+    }
+
+    .big-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        height: 902px;
+
+        .img-box1 {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .small-img-box {
+                position: relative;
+
+
+                h5 {
+                    @include textInImage;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+            }
+        }
+
+        .img-box2 {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            img {
+                margin-bottom: 98px;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: #243043;
+    height: 201px;
+    width: 100%;
+    position: relative;
+
+    .conteiner {
+        @include conteiner;
+        max-width: 350px;
+
+        h5 {
+            display: inline-block;
+            color: #FFF;
+            font-size: 12px;
+            font-weight: 400;
+            margin-top: 59px;
+            margin-left: 112px;
+            width: 249px;
+        }
+
+        .main-logo {
+            position: absolute;
+            right: 138px;
+            top: 58px;
+        }
+    }
+
+    .flexbox1 {
+        display: flex;
+        max-width: 350px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        vertical-align: middle;
+        position: absolute;
+        left: 137px;
+        top: 59px;
+
+        li {
+            margin-bottom: 14px;
+
+            a {
+                color: #818687;
+                font-size: 12px;
+                font-weight: 700;
+            }
+
+            a:hover {
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
     }
 }
